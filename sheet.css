@@ -1,0 +1,120 @@
+*{
+           margin: 0px ;
+           padding: 0px ;
+           box-sizing: border-box ;
+}
+
+header{
+            background-image: radial-gradient( #fada5e ,black) ;
+          background-image: url('112.jpg') ;
+            backgoung-size: 500px   500px  ;
+           background-repeat: no-repeat ;
+            background-position: center ;
+           height: 700px ;
+          }
+
+body{ 
+background-image: radial-gradient(  #fada5e, black) ;
+     font-size: 25px ;
+    overflow-x: hidden;
+    color: white ;
+           }
+
+.clearfix:after{
+                content: "." ;
+               visibility: hidden ;
+                display: block ;
+                height: 0px ;
+                clear: both ;
+}
+
+.row{
+        max-width: 1180px ;
+        margin: 0 auto;
+}
+
+.logo{
+          height: 150px ;
+          width: auto ;
+          float:  left ;
+         margin-top: 30px;
+}
+
+.main-nav{
+             float: right ;
+             margin-top: 60px;
+}
+
+.main-nav li{
+              display: inline-block ;
+              list-style: none ;
+              margin-style: 40px ;
+}
+
+.main-nav li a{
+                           color: #fff ;
+                            text-decoration: none ;
+                            text-transform: uppercase ;
+                             font-size: 75% ;
+                            font-wieght: 100vh;
+}
+
+.main-content-header{
+                        width: 1180px;
+                        position: absolute;
+                         top: 90% ;
+                      }
+
+.btn{
+display: inline-block ;
+padding: 10px  30px ;
+font-weight: lighter ;
+text-decoration: none ;
+text-transformation: uppercase;
+border-radius: 200px;
+transition: background-color 0.2s, border-radies: 0.2s, color 0.2 ;
+}
+
+.btn-full{
+               background-color: transparent;
+              color: orange ;
+              margin-right : 15px ;
+             border: 1px solid orange ;
+}
+
+.btn-nav{
+                background-color: transparent;
+              color: pink ;
+              
+             border: 1px solid pink;
+}
+
+h1{
+   font-weight: lighter
+}
+
+.main-nav li a:hover{
+            border-bottom: 2px solid orange;
+
+}
+
+.btn-full:hover{
+                background: white ;
+}
+
+.btn-nav:hover{
+             background: purple ;
+}
+
+.colorchange{
+      animation: colorchangeSASHAKT  1s infinite;
+}
+
+@keyframes colorchangeSASHAKT{
+0%{ color: red;}
+25%{color: yellow;}
+50%{color: purple;}
+100%{color:orange;}
+}
+
+
